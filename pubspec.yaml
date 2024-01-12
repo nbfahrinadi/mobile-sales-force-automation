@@ -47,7 +47,7 @@ dependencies:
   material_floating_search_bar: ^0.3.7
   anim_search_bar: ^2.0.2
   custom_navigation_bar: ^0.8.2
-  flutter_icons: ^1.1.0
+  # flutter_icons: ^1.1.0
   textfield_search: ^0.10.0
   # image_form_field: ^0.0.2
   image_picker: ^0.8.6
