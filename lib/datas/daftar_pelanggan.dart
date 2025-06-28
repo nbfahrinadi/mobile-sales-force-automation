@@ -15,9 +15,9 @@ class DaftarPelangganState extends State<DaftarPelanggan> {
       size: 50,
     ),
     title: const Text('Nama Pelanggan'),
-    subtitle: Column(
+    subtitle: const Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      children: const [
+      children: [
         Text('Deskripsi'),
         // Text('Rp. 0, 00'),
       ],

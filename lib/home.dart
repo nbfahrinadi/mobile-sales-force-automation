@@ -106,12 +106,12 @@ class _HomePageState extends State<HomePage> {
         body: Center(
           child: Column(
             children: [
-              Flexible(
+              const Flexible(
                   child: Padding(
-                padding: const EdgeInsets.only(
-                    right: 20, top: 20, bottom: 20, left: 10),
+                padding:
+                    EdgeInsets.only(right: 20, top: 20, bottom: 20, left: 10),
                 child: Row(
-                  children: const [
+                  children: [
                     Icon(
                       Icons.date_range_rounded,
                       color: Colors.white,

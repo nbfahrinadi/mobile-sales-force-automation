@@ -49,10 +49,10 @@ class _PelangganState extends State<Pelanggan> {
             ],
           ),
           const SizedBox(height: 20),
-          Row(
+          const Row(
             // mainAxisAlignment: MainAxisAlignment.center,
             // crossAxisAlignment: CrossAxisAlignment.center,
-            children: const [
+            children: [
               Expanded(
                   child: Padding(
                 padding: EdgeInsets.symmetric(horizontal: 20),
@@ -61,12 +61,12 @@ class _PelangganState extends State<Pelanggan> {
             ],
           ),
           const SizedBox(height: 20),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 20),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: const [
+              children: [
                 Text('Nama Pelanggan'),
                 Icon(Icons.short_text),
               ],
@@ -120,8 +120,8 @@ void _pelanggan(context) {
                   const SizedBox(
                     height: 40,
                   ),
-                  Row(
-                    children: const [Expanded(child: Text('Pelanggan Baru'))],
+                  const Row(
+                    children: [Expanded(child: Text('Pelanggan Baru'))],
                   ),
                   const SizedBox(
                     height: 20,

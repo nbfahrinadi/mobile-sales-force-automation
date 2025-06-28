@@ -44,9 +44,9 @@ class _SalesPageState extends State<SalesPage> {
           color: Colors.grey[200],
           child: ListTile(
             title: const Text('Product'),
-            subtitle: Column(
+            subtitle: const Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: const [
+              children: [
                 Text('desckripsi'),
                 Text('Rp. 0, 00'),
               ],
@@ -112,9 +112,9 @@ class _SalesPageState extends State<SalesPage> {
           color: Colors.grey[300],
           child: ListTile(
             title: const Text('Product'),
-            subtitle: Column(
+            subtitle: const Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: const [
+              children: [
                 Text('desckripsi'),
                 Text('Rp. 0, 00'),
               ],

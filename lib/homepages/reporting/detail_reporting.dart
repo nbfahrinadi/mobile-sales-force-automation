@@ -119,8 +119,8 @@ class _DetailReportingState extends State<DetailReporting> {
                                               color: Colors.white,
                                             )),
                                       )),
-                                  Padding(
-                                    padding: const EdgeInsets.only(top: 10),
+                                  const Padding(
+                                    padding: EdgeInsets.only(top: 10),
                                     child: Row(
                                       mainAxisAlignment:
                                           MainAxisAlignment.spaceBetween,
@@ -131,7 +131,7 @@ class _DetailReportingState extends State<DetailReporting> {
                                           child: Column(
                                             crossAxisAlignment:
                                                 CrossAxisAlignment.start,
-                                            children: const [
+                                            children: [
                                               Text(
                                                 'RS. Sejahtera Nusa Sentosa Indah',
                                                 // overflow: TextOverflow.ellipsis,
@@ -144,18 +144,18 @@ class _DetailReportingState extends State<DetailReporting> {
                                             ],
                                           ),
                                         ),
-                                        const SizedBox(width: 10),
+                                        SizedBox(width: 10),
                                       ],
                                     ),
                                   ),
                                   const SizedBox(height: 10),
-                                  Row(
+                                  const Row(
                                     mainAxisAlignment:
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Expanded(
                                         child: Row(
-                                          children: const [
+                                          children: [
                                             Icon(
                                               Icons.calendar_month,
                                               size: 18,
@@ -177,11 +177,11 @@ class _DetailReportingState extends State<DetailReporting> {
                                     ],
                                   ),
                                   const SizedBox(height: 5),
-                                  Row(
+                                  const Row(
                                     mainAxisAlignment: MainAxisAlignment.start,
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
-                                    children: const [
+                                    children: [
                                       Icon(
                                         Icons.location_on,
                                         size: 18,
@@ -202,18 +202,18 @@ class _DetailReportingState extends State<DetailReporting> {
                                   ),
                                   const Divider(thickness: 1),
                                   // const SizedBoxs(height: 10),
-                                  Row(
+                                  const Row(
                                     children: [
-                                      const Icon(
+                                      Icon(
                                         Icons.person,
                                         size: 40,
                                         color: Colors.grey,
                                       ),
-                                      const SizedBox(width: 10),
+                                      SizedBox(width: 10),
                                       Column(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
-                                        children: const [
+                                        children: [
                                           Text(
                                             'Dr. Hanya Contoh Saja',
                                             style: TextStyle(
@@ -259,12 +259,12 @@ class _DetailReportingState extends State<DetailReporting> {
                         borderRadius: BorderRadius.all(
                           Radius.circular(15),
                         )),
-                    child: Padding(
-                      padding: const EdgeInsets.all(20.0),
+                    child: const Padding(
+                      padding: EdgeInsets.all(20.0),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        children: const [
+                        children: [
                           Text(
                             'Laporan',
                             style: TextStyle(

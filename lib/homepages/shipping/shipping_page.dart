@@ -169,25 +169,25 @@ class _ShippingPageState extends State<ShippingPage> {
                                     ),
                                     const SizedBox(width: 10),
                                     //INFO & DETAIL---------------------------
-                                    Expanded(
+                                    const Expanded(
                                       flex: 3,
                                       child: Column(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
                                         children: [
-                                          const Text(
+                                          Text(
                                             'RS. Sejahtera Nusa Sentosa Indah',
                                             style: TextStyle(
                                                 overflow: TextOverflow.ellipsis,
                                                 fontSize: 16,
                                                 fontWeight: FontWeight.bold),
                                           ),
-                                          const SizedBox(height: 10),
+                                          SizedBox(height: 10),
                                           Row(
                                             children: [
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons
                                                           .calendar_month_rounded,
@@ -207,7 +207,7 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons.access_time,
                                                       size: 15,
@@ -226,9 +226,9 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                             ],
                                           ),
-                                          const SizedBox(height: 5),
+                                          SizedBox(height: 5),
                                           Row(
-                                            children: const [
+                                            children: [
                                               Icon(
                                                 Icons.location_on,
                                                 size: 15,
@@ -249,19 +249,19 @@ class _ShippingPageState extends State<ShippingPage> {
                                             ],
                                           ),
                                           // const SizedBox(height: 5),
-                                          const Divider(thickness: 1),
+                                          Divider(thickness: 1),
                                           Row(
                                             children: [
-                                              const Icon(
+                                              Icon(
                                                 Icons.chevron_right_sharp,
                                                 size: 18,
                                                 color: Colors.blue,
                                               ),
-                                              const SizedBox(width: 5),
+                                              SizedBox(width: 5),
                                               Column(
                                                 crossAxisAlignment:
                                                     CrossAxisAlignment.start,
-                                                children: const [
+                                                children: [
                                                   // Text(
                                                   //   'Nama Hanya Contoh Saja',
                                                   //   style: TextStyle(
@@ -373,25 +373,25 @@ class _ShippingPageState extends State<ShippingPage> {
                                     ),
                                     const SizedBox(width: 10),
                                     //INFO & DETAIL---------------------------
-                                    Expanded(
+                                    const Expanded(
                                       flex: 3,
                                       child: Column(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
                                         children: [
-                                          const Text(
+                                          Text(
                                             'Klinik Sejahtera Nusa Sentosa Indah',
                                             style: TextStyle(
                                                 overflow: TextOverflow.ellipsis,
                                                 fontSize: 16,
                                                 fontWeight: FontWeight.bold),
                                           ),
-                                          const SizedBox(height: 10),
+                                          SizedBox(height: 10),
                                           Row(
                                             children: [
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons
                                                           .calendar_month_rounded,
@@ -411,7 +411,7 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons.access_time,
                                                       size: 15,
@@ -430,9 +430,9 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                             ],
                                           ),
-                                          const SizedBox(height: 5),
+                                          SizedBox(height: 5),
                                           Row(
-                                            children: const [
+                                            children: [
                                               Icon(
                                                 Icons.location_on,
                                                 size: 15,
@@ -450,19 +450,19 @@ class _ShippingPageState extends State<ShippingPage> {
                                             ],
                                           ),
                                           // const SizedBox(height: 5),
-                                          const Divider(thickness: 1),
+                                          Divider(thickness: 1),
                                           Row(
                                             children: [
-                                              const Icon(
+                                              Icon(
                                                 Icons.chevron_right_sharp,
                                                 size: 18,
                                                 color: Colors.blue,
                                               ),
-                                              const SizedBox(width: 5),
+                                              SizedBox(width: 5),
                                               Column(
                                                 crossAxisAlignment:
                                                     CrossAxisAlignment.start,
-                                                children: const [
+                                                children: [
                                                   // Text(
                                                   //   'Nama Hanya Contoh Saja',
                                                   //   style: TextStyle(
@@ -574,25 +574,25 @@ class _ShippingPageState extends State<ShippingPage> {
                                     ),
                                     const SizedBox(width: 10),
                                     //INFO & DETAIL---------------------------
-                                    Expanded(
+                                    const Expanded(
                                       flex: 3,
                                       child: Column(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
                                         children: [
-                                          const Text(
+                                          Text(
                                             'Lab. Sejahtera Nusa Sentosa Indah',
                                             style: TextStyle(
                                                 overflow: TextOverflow.ellipsis,
                                                 fontSize: 16,
                                                 fontWeight: FontWeight.bold),
                                           ),
-                                          const SizedBox(height: 10),
+                                          SizedBox(height: 10),
                                           Row(
                                             children: [
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons
                                                           .calendar_month_rounded,
@@ -612,7 +612,7 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons.access_time,
                                                       size: 15,
@@ -631,9 +631,9 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                             ],
                                           ),
-                                          const SizedBox(height: 5),
+                                          SizedBox(height: 5),
                                           Row(
-                                            children: const [
+                                            children: [
                                               Icon(
                                                 Icons.location_on,
                                                 size: 15,
@@ -651,19 +651,19 @@ class _ShippingPageState extends State<ShippingPage> {
                                             ],
                                           ),
                                           // const SizedBox(height: 5),
-                                          const Divider(thickness: 1),
+                                          Divider(thickness: 1),
                                           Row(
                                             children: [
-                                              const Icon(
+                                              Icon(
                                                 Icons.chevron_right_sharp,
                                                 size: 18,
                                                 color: Colors.blue,
                                               ),
-                                              const SizedBox(width: 5),
+                                              SizedBox(width: 5),
                                               Column(
                                                 crossAxisAlignment:
                                                     CrossAxisAlignment.start,
-                                                children: const [
+                                                children: [
                                                   // Text(
                                                   //   'Nama Hanya Contoh Saja',
                                                   //   style: TextStyle(
@@ -775,25 +775,25 @@ class _ShippingPageState extends State<ShippingPage> {
                                     ),
                                     const SizedBox(width: 10),
                                     //INFO & DETAIL---------------------------
-                                    Expanded(
+                                    const Expanded(
                                       flex: 3,
                                       child: Column(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
                                         children: [
-                                          const Text(
+                                          Text(
                                             'Dokter Nama Hanya Contoh Saja',
                                             style: TextStyle(
                                                 overflow: TextOverflow.ellipsis,
                                                 fontSize: 16,
                                                 fontWeight: FontWeight.bold),
                                           ),
-                                          const SizedBox(height: 10),
+                                          SizedBox(height: 10),
                                           Row(
                                             children: [
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons
                                                           .calendar_month_rounded,
@@ -813,7 +813,7 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons.access_time,
                                                       size: 15,
@@ -832,9 +832,9 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                             ],
                                           ),
-                                          const SizedBox(height: 5),
+                                          SizedBox(height: 5),
                                           Row(
-                                            children: const [
+                                            children: [
                                               Icon(
                                                 Icons.location_on,
                                                 size: 15,
@@ -852,19 +852,19 @@ class _ShippingPageState extends State<ShippingPage> {
                                             ],
                                           ),
                                           // const SizedBox(height: 5),
-                                          const Divider(thickness: 1),
+                                          Divider(thickness: 1),
                                           Row(
                                             children: [
-                                              const Icon(
+                                              Icon(
                                                 Icons.chevron_right_sharp,
                                                 size: 18,
                                                 color: Colors.blue,
                                               ),
-                                              const SizedBox(width: 5),
+                                              SizedBox(width: 5),
                                               Column(
                                                 crossAxisAlignment:
                                                     CrossAxisAlignment.start,
-                                                children: const [
+                                                children: [
                                                   // Text(
                                                   //   'Nama Hanya Contoh Saja',
                                                   //   style: TextStyle(
@@ -976,25 +976,25 @@ class _ShippingPageState extends State<ShippingPage> {
                                     ),
                                     const SizedBox(width: 10),
                                     //INFO & DETAIL---------------------------
-                                    Expanded(
+                                    const Expanded(
                                       flex: 3,
                                       child: Column(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
                                         children: [
-                                          const Text(
+                                          Text(
                                             'Bidan Nama Hanya Contoh Saja',
                                             style: TextStyle(
                                                 overflow: TextOverflow.ellipsis,
                                                 fontSize: 16,
                                                 fontWeight: FontWeight.bold),
                                           ),
-                                          const SizedBox(height: 10),
+                                          SizedBox(height: 10),
                                           Row(
                                             children: [
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons
                                                           .calendar_month_rounded,
@@ -1014,7 +1014,7 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons.access_time,
                                                       size: 15,
@@ -1033,9 +1033,9 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                             ],
                                           ),
-                                          const SizedBox(height: 5),
+                                          SizedBox(height: 5),
                                           Row(
-                                            children: const [
+                                            children: [
                                               Icon(
                                                 Icons.location_on,
                                                 size: 15,
@@ -1053,19 +1053,19 @@ class _ShippingPageState extends State<ShippingPage> {
                                             ],
                                           ),
                                           // const SizedBox(height: 5),
-                                          const Divider(thickness: 1),
+                                          Divider(thickness: 1),
                                           Row(
                                             children: [
-                                              const Icon(
+                                              Icon(
                                                 Icons.chevron_right_sharp,
                                                 size: 18,
                                                 color: Colors.blue,
                                               ),
-                                              const SizedBox(width: 5),
+                                              SizedBox(width: 5),
                                               Column(
                                                 crossAxisAlignment:
                                                     CrossAxisAlignment.start,
-                                                children: const [
+                                                children: [
                                                   // Text(
                                                   //   'Nama Hanya Contoh Saja',
                                                   //   style: TextStyle(
@@ -1177,25 +1177,25 @@ class _ShippingPageState extends State<ShippingPage> {
                                     ),
                                     const SizedBox(width: 10),
                                     //INFO & DETAIL---------------------------
-                                    Expanded(
+                                    const Expanded(
                                       flex: 3,
                                       child: Column(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
                                         children: [
-                                          const Text(
+                                          Text(
                                             'Apotek Sejahtera Nusa Sentosa Indah',
                                             style: TextStyle(
                                                 overflow: TextOverflow.ellipsis,
                                                 fontSize: 16,
                                                 fontWeight: FontWeight.bold),
                                           ),
-                                          const SizedBox(height: 10),
+                                          SizedBox(height: 10),
                                           Row(
                                             children: [
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons
                                                           .calendar_month_rounded,
@@ -1215,7 +1215,7 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons.access_time,
                                                       size: 15,
@@ -1234,9 +1234,9 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                             ],
                                           ),
-                                          const SizedBox(height: 5),
+                                          SizedBox(height: 5),
                                           Row(
-                                            children: const [
+                                            children: [
                                               Icon(
                                                 Icons.location_on,
                                                 size: 15,
@@ -1254,19 +1254,19 @@ class _ShippingPageState extends State<ShippingPage> {
                                             ],
                                           ),
                                           // const SizedBox(height: 5),
-                                          const Divider(thickness: 1),
+                                          Divider(thickness: 1),
                                           Row(
                                             children: [
-                                              const Icon(
+                                              Icon(
                                                 Icons.chevron_right_sharp,
                                                 size: 18,
                                                 color: Colors.blue,
                                               ),
-                                              const SizedBox(width: 5),
+                                              SizedBox(width: 5),
                                               Column(
                                                 crossAxisAlignment:
                                                     CrossAxisAlignment.start,
-                                                children: const [
+                                                children: [
                                                   // Text(
                                                   //   'Nama Hanya Contoh Saja',
                                                   //   style: TextStyle(
@@ -1426,25 +1426,25 @@ class _ShippingPageState extends State<ShippingPage> {
                                     ),
                                     const SizedBox(width: 10),
                                     //INFO & DETAIL---------------------------
-                                    Expanded(
+                                    const Expanded(
                                       flex: 3,
                                       child: Column(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
                                         children: [
-                                          const Text(
+                                          Text(
                                             'RS. Sejahtera Nusa Sentosa Indah',
                                             style: TextStyle(
                                                 overflow: TextOverflow.ellipsis,
                                                 fontSize: 16,
                                                 fontWeight: FontWeight.bold),
                                           ),
-                                          const SizedBox(height: 10),
+                                          SizedBox(height: 10),
                                           Row(
                                             children: [
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons
                                                           .calendar_month_rounded,
@@ -1464,7 +1464,7 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons.access_time,
                                                       size: 15,
@@ -1483,9 +1483,9 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                             ],
                                           ),
-                                          const SizedBox(height: 5),
+                                          SizedBox(height: 5),
                                           Row(
-                                            children: const [
+                                            children: [
                                               Icon(
                                                 Icons.location_on,
                                                 size: 15,
@@ -1503,19 +1503,19 @@ class _ShippingPageState extends State<ShippingPage> {
                                             ],
                                           ),
                                           // const SizedBox(height: 5),
-                                          const Divider(thickness: 1),
+                                          Divider(thickness: 1),
                                           Row(
                                             children: [
-                                              const Icon(
+                                              Icon(
                                                 Icons.chevron_right_sharp,
                                                 size: 18,
                                                 color: Colors.blue,
                                               ),
-                                              const SizedBox(width: 5),
+                                              SizedBox(width: 5),
                                               Column(
                                                 crossAxisAlignment:
                                                     CrossAxisAlignment.start,
-                                                children: const [
+                                                children: [
                                                   // Text(
                                                   //   'Nama Hanya Contoh Saja',
                                                   //   style: TextStyle(
@@ -1627,25 +1627,25 @@ class _ShippingPageState extends State<ShippingPage> {
                                     ),
                                     const SizedBox(width: 10),
                                     //INFO & DETAIL---------------------------
-                                    Expanded(
+                                    const Expanded(
                                       flex: 3,
                                       child: Column(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
                                         children: [
-                                          const Text(
+                                          Text(
                                             'Klinik Sejahtera Nusa Sentosa Indah',
                                             style: TextStyle(
                                                 overflow: TextOverflow.ellipsis,
                                                 fontSize: 16,
                                                 fontWeight: FontWeight.bold),
                                           ),
-                                          const SizedBox(height: 10),
+                                          SizedBox(height: 10),
                                           Row(
                                             children: [
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons
                                                           .calendar_month_rounded,
@@ -1665,7 +1665,7 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons.access_time,
                                                       size: 15,
@@ -1684,9 +1684,9 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                             ],
                                           ),
-                                          const SizedBox(height: 5),
+                                          SizedBox(height: 5),
                                           Row(
-                                            children: const [
+                                            children: [
                                               Icon(
                                                 Icons.location_on,
                                                 size: 15,
@@ -1704,19 +1704,19 @@ class _ShippingPageState extends State<ShippingPage> {
                                             ],
                                           ),
                                           // const SizedBox(height: 5),
-                                          const Divider(thickness: 1),
+                                          Divider(thickness: 1),
                                           Row(
                                             children: [
-                                              const Icon(
+                                              Icon(
                                                 Icons.chevron_right_sharp,
                                                 size: 18,
                                                 color: Colors.blue,
                                               ),
-                                              const SizedBox(width: 5),
+                                              SizedBox(width: 5),
                                               Column(
                                                 crossAxisAlignment:
                                                     CrossAxisAlignment.start,
-                                                children: const [
+                                                children: [
                                                   // Text(
                                                   //   'Nama Hanya Contoh Saja',
                                                   //   style: TextStyle(
@@ -1828,25 +1828,25 @@ class _ShippingPageState extends State<ShippingPage> {
                                     ),
                                     const SizedBox(width: 10),
                                     //INFO & DETAIL---------------------------
-                                    Expanded(
+                                    const Expanded(
                                       flex: 3,
                                       child: Column(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
                                         children: [
-                                          const Text(
+                                          Text(
                                             'Lab. Sejahtera Nusa Sentosa Indah',
                                             style: TextStyle(
                                                 overflow: TextOverflow.ellipsis,
                                                 fontSize: 16,
                                                 fontWeight: FontWeight.bold),
                                           ),
-                                          const SizedBox(height: 10),
+                                          SizedBox(height: 10),
                                           Row(
                                             children: [
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons
                                                           .calendar_month_rounded,
@@ -1866,7 +1866,7 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons.access_time,
                                                       size: 15,
@@ -1885,9 +1885,9 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                             ],
                                           ),
-                                          const SizedBox(height: 5),
+                                          SizedBox(height: 5),
                                           Row(
-                                            children: const [
+                                            children: [
                                               Icon(
                                                 Icons.location_on,
                                                 size: 15,
@@ -1905,19 +1905,19 @@ class _ShippingPageState extends State<ShippingPage> {
                                             ],
                                           ),
                                           // const SizedBox(height: 5),
-                                          const Divider(thickness: 1),
+                                          Divider(thickness: 1),
                                           Row(
                                             children: [
-                                              const Icon(
+                                              Icon(
                                                 Icons.chevron_right_sharp,
                                                 size: 18,
                                                 color: Colors.blue,
                                               ),
-                                              const SizedBox(width: 5),
+                                              SizedBox(width: 5),
                                               Column(
                                                 crossAxisAlignment:
                                                     CrossAxisAlignment.start,
-                                                children: const [
+                                                children: [
                                                   // Text(
                                                   //   'Nama Hanya Contoh Saja',
                                                   //   style: TextStyle(
@@ -2029,25 +2029,25 @@ class _ShippingPageState extends State<ShippingPage> {
                                     ),
                                     const SizedBox(width: 10),
                                     //INFO & DETAIL---------------------------
-                                    Expanded(
+                                    const Expanded(
                                       flex: 3,
                                       child: Column(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
                                         children: [
-                                          const Text(
+                                          Text(
                                             'Dokter Nama Hanya Contoh Saja',
                                             style: TextStyle(
                                                 overflow: TextOverflow.ellipsis,
                                                 fontSize: 16,
                                                 fontWeight: FontWeight.bold),
                                           ),
-                                          const SizedBox(height: 10),
+                                          SizedBox(height: 10),
                                           Row(
                                             children: [
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons
                                                           .calendar_month_rounded,
@@ -2067,7 +2067,7 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons.access_time,
                                                       size: 15,
@@ -2086,9 +2086,9 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                             ],
                                           ),
-                                          const SizedBox(height: 5),
+                                          SizedBox(height: 5),
                                           Row(
-                                            children: const [
+                                            children: [
                                               Icon(
                                                 Icons.location_on,
                                                 size: 15,
@@ -2106,19 +2106,19 @@ class _ShippingPageState extends State<ShippingPage> {
                                             ],
                                           ),
                                           // const SizedBox(height: 5),
-                                          const Divider(thickness: 1),
+                                          Divider(thickness: 1),
                                           Row(
                                             children: [
-                                              const Icon(
+                                              Icon(
                                                 Icons.chevron_right_sharp,
                                                 size: 18,
                                                 color: Colors.blue,
                                               ),
-                                              const SizedBox(width: 5),
+                                              SizedBox(width: 5),
                                               Column(
                                                 crossAxisAlignment:
                                                     CrossAxisAlignment.start,
-                                                children: const [
+                                                children: [
                                                   // Text(
                                                   //   'Nama Hanya Contoh Saja',
                                                   //   style: TextStyle(
@@ -2230,25 +2230,25 @@ class _ShippingPageState extends State<ShippingPage> {
                                     ),
                                     const SizedBox(width: 10),
                                     //INFO & DETAIL---------------------------
-                                    Expanded(
+                                    const Expanded(
                                       flex: 3,
                                       child: Column(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
                                         children: [
-                                          const Text(
+                                          Text(
                                             'Bidan Nama Hanya Contoh Saja',
                                             style: TextStyle(
                                                 overflow: TextOverflow.ellipsis,
                                                 fontSize: 16,
                                                 fontWeight: FontWeight.bold),
                                           ),
-                                          const SizedBox(height: 10),
+                                          SizedBox(height: 10),
                                           Row(
                                             children: [
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons
                                                           .calendar_month_rounded,
@@ -2268,7 +2268,7 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons.access_time,
                                                       size: 15,
@@ -2287,9 +2287,9 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                             ],
                                           ),
-                                          const SizedBox(height: 5),
+                                          SizedBox(height: 5),
                                           Row(
-                                            children: const [
+                                            children: [
                                               Icon(
                                                 Icons.location_on,
                                                 size: 15,
@@ -2307,19 +2307,19 @@ class _ShippingPageState extends State<ShippingPage> {
                                             ],
                                           ),
                                           // const SizedBox(height: 5),
-                                          const Divider(thickness: 1),
+                                          Divider(thickness: 1),
                                           Row(
                                             children: [
-                                              const Icon(
+                                              Icon(
                                                 Icons.chevron_right_sharp,
                                                 size: 18,
                                                 color: Colors.blue,
                                               ),
-                                              const SizedBox(width: 5),
+                                              SizedBox(width: 5),
                                               Column(
                                                 crossAxisAlignment:
                                                     CrossAxisAlignment.start,
-                                                children: const [
+                                                children: [
                                                   // Text(
                                                   //   'Nama Hanya Contoh Saja',
                                                   //   style: TextStyle(
@@ -2431,25 +2431,25 @@ class _ShippingPageState extends State<ShippingPage> {
                                     ),
                                     const SizedBox(width: 10),
                                     //INFO & DETAIL---------------------------
-                                    Expanded(
+                                    const Expanded(
                                       flex: 3,
                                       child: Column(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
                                         children: [
-                                          const Text(
+                                          Text(
                                             'Apotek Sejahtera Nusa Sentosa Indah',
                                             style: TextStyle(
                                                 overflow: TextOverflow.ellipsis,
                                                 fontSize: 16,
                                                 fontWeight: FontWeight.bold),
                                           ),
-                                          const SizedBox(height: 10),
+                                          SizedBox(height: 10),
                                           Row(
                                             children: [
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons
                                                           .calendar_month_rounded,
@@ -2469,7 +2469,7 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                               Expanded(
                                                 child: Row(
-                                                  children: const [
+                                                  children: [
                                                     Icon(
                                                       Icons.access_time,
                                                       size: 15,
@@ -2488,9 +2488,9 @@ class _ShippingPageState extends State<ShippingPage> {
                                               ),
                                             ],
                                           ),
-                                          const SizedBox(height: 5),
+                                          SizedBox(height: 5),
                                           Row(
-                                            children: const [
+                                            children: [
                                               Icon(
                                                 Icons.location_on,
                                                 size: 15,
@@ -2508,19 +2508,19 @@ class _ShippingPageState extends State<ShippingPage> {
                                             ],
                                           ),
                                           // const SizedBox(height: 5),
-                                          const Divider(thickness: 1),
+                                          Divider(thickness: 1),
                                           Row(
                                             children: [
-                                              const Icon(
+                                              Icon(
                                                 Icons.chevron_right_sharp,
                                                 size: 18,
                                                 color: Colors.blue,
                                               ),
-                                              const SizedBox(width: 5),
+                                              SizedBox(width: 5),
                                               Column(
                                                 crossAxisAlignment:
                                                     CrossAxisAlignment.start,
-                                                children: const [
+                                                children: [
                                                   // Text(
                                                   //   'Nama Hanya Contoh Saja',
                                                   //   style: TextStyle(
@@ -2617,8 +2617,8 @@ void _tambahProduk(BuildContext context) {
                     onPressed: () {},
                     style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.transparent, elevation: 0),
-                    child: Row(
-                      children: const [
+                    child: const Row(
+                      children: [
                         Icon(Icons.camera),
                         SizedBox(width: 10),
                         Text('Camera'),
@@ -2628,8 +2628,8 @@ void _tambahProduk(BuildContext context) {
                     onPressed: () {},
                     style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.transparent, elevation: 0),
-                    child: Row(
-                      children: const [
+                    child: const Row(
+                      children: [
                         Icon(Icons.image),
                         SizedBox(width: 10),
                         Text('Gallery'),
@@ -2743,9 +2743,9 @@ void _tambahProduk(BuildContext context) {
                               context: context,
                               builder: ((builder) => bottomSheet()));
                         },
-                        child: Column(
+                        child: const Column(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: const [
+                          children: [
                             Icon(
                               Icons.image,
                               size: 50,

@@ -155,13 +155,13 @@ class _AbsensiPageState extends State<AbsensiPage> {
                                         color: Colors.lightBlue[300],
                                         // color: Colors.orange[300],
                                         elevation: 0,
-                                        child: Padding(
-                                          padding: const EdgeInsets.symmetric(
+                                        child: const Padding(
+                                          padding: EdgeInsets.symmetric(
                                               vertical: 10),
                                           child: Column(
                                             mainAxisAlignment:
                                                 MainAxisAlignment.center,
-                                            children: const [
+                                            children: [
                                               Icon(
                                                 Icons.login_rounded,
                                                 color: Colors.white,
@@ -221,13 +221,13 @@ class _AbsensiPageState extends State<AbsensiPage> {
                                                       const AbsensiKeluar()),
                                             );
                                           },
-                                          child: Padding(
-                                            padding: const EdgeInsets.symmetric(
+                                          child: const Padding(
+                                            padding: EdgeInsets.symmetric(
                                                 vertical: 10),
                                             child: Column(
                                               mainAxisAlignment:
                                                   MainAxisAlignment.center,
-                                              children: const [
+                                              children: [
                                                 Icon(
                                                   Icons.logout_rounded,
                                                   color: Colors.white,
@@ -280,13 +280,13 @@ class _AbsensiPageState extends State<AbsensiPage> {
                                             //           const AbsensiIzin()),
                                             // );
                                           },
-                                          child: Padding(
-                                            padding: const EdgeInsets.symmetric(
+                                          child: const Padding(
+                                            padding: EdgeInsets.symmetric(
                                                 vertical: 10),
                                             child: Column(
                                               mainAxisAlignment:
                                                   MainAxisAlignment.center,
-                                              children: const [
+                                              children: [
                                                 Icon(
                                                   Icons.edit_note_rounded,
                                                   color: Colors.grey,
@@ -356,28 +356,27 @@ class _AbsensiPageState extends State<AbsensiPage> {
                                       color: Colors.lightBlueAccent),
                                 ),
                               ),
-                              Expanded(
+                              const Expanded(
                                 flex: 20,
                                 child: Padding(
-                                  padding: const EdgeInsets.symmetric(
-                                      horizontal: 10),
+                                  padding: EdgeInsets.symmetric(horizontal: 10),
                                   child: Column(
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
                                     children: [
-                                      const Text(
+                                      Text(
                                         'Absensi Masuk',
                                         style: TextStyle(
                                             overflow: TextOverflow.ellipsis,
                                             fontSize: 16,
                                             fontWeight: FontWeight.bold),
                                       ),
-                                      const SizedBox(height: 10),
+                                      SizedBox(height: 10),
                                       Row(
                                         children: [
                                           Expanded(
                                             child: Row(
-                                              children: const [
+                                              children: [
                                                 Icon(
                                                   Icons.calendar_month_rounded,
                                                   size: 20,
@@ -396,7 +395,7 @@ class _AbsensiPageState extends State<AbsensiPage> {
                                           ),
                                           Expanded(
                                             child: Row(
-                                              children: const [
+                                              children: [
                                                 Icon(
                                                   Icons.access_time,
                                                   size: 20,
@@ -415,7 +414,7 @@ class _AbsensiPageState extends State<AbsensiPage> {
                                           ),
                                         ],
                                       ),
-                                      const SizedBox(height: 5),
+                                      SizedBox(height: 5),
 
                                       // const SizedBox(height: 5),
                                     ],
@@ -464,27 +463,27 @@ class _AbsensiPageState extends State<AbsensiPage> {
                                       color: Colors.green[300]),
                                 ),
                               ),
-                              Expanded(
+                              const Expanded(
                                 flex: 20,
                                 child: Padding(
-                                  padding: const EdgeInsets.all(10.0),
+                                  padding: EdgeInsets.all(10.0),
                                   child: Column(
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
                                     children: [
-                                      const Text(
+                                      Text(
                                         'Absensi Keluar',
                                         style: TextStyle(
                                             overflow: TextOverflow.ellipsis,
                                             fontSize: 16,
                                             fontWeight: FontWeight.bold),
                                       ),
-                                      const SizedBox(height: 10),
+                                      SizedBox(height: 10),
                                       Row(
                                         children: [
                                           Expanded(
                                             child: Row(
-                                              children: const [
+                                              children: [
                                                 Icon(
                                                   Icons.calendar_month_rounded,
                                                   size: 20,
@@ -503,7 +502,7 @@ class _AbsensiPageState extends State<AbsensiPage> {
                                           ),
                                           Expanded(
                                             child: Row(
-                                              children: const [
+                                              children: [
                                                 Icon(
                                                   Icons.access_time,
                                                   size: 20,
@@ -522,7 +521,7 @@ class _AbsensiPageState extends State<AbsensiPage> {
                                           ),
                                         ],
                                       ),
-                                      const SizedBox(height: 5),
+                                      SizedBox(height: 5),
 
                                       // const SizedBox(height: 5),
                                     ],

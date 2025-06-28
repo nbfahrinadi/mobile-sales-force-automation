@@ -110,21 +110,21 @@ class _HistoriPemeliharaanState extends State<HistoriPemeliharaan> {
                                 ),
                               )),
                           const SizedBox(width: 10),
-                          Expanded(
+                          const Expanded(
                             flex: 4,
                             child: Padding(
-                              padding: const EdgeInsets.symmetric(vertical: 15),
+                              padding: EdgeInsets.symmetric(vertical: 15),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 // mainAxisAlignment: MainAxisAlignment.start,
                                 children: [
-                                  const Text(
+                                  Text(
                                     'Wienerlab CM-200',
                                     style:
                                         TextStyle(fontWeight: FontWeight.bold),
                                   ),
                                   Row(
-                                    children: const [
+                                    children: [
                                       Flexible(
                                         child: Text(
                                           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
@@ -135,13 +135,13 @@ class _HistoriPemeliharaanState extends State<HistoriPemeliharaan> {
                                       )
                                     ],
                                   ),
-                                  const SizedBox(height: 10),
+                                  SizedBox(height: 10),
                                   // const Text(
                                   //   'Dr. contoh',
                                   //   style: TextStyle(fontWeight: FontWeight.bold),
                                   // )
                                   Row(
-                                    children: const [
+                                    children: [
                                       Icon(
                                         Icons.calendar_month_rounded,
                                         size: 15,

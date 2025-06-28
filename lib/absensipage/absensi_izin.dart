@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_wg/screen_controller.dart';
 
 class AbsensiIzin extends StatefulWidget {
   const AbsensiIzin({super.key});

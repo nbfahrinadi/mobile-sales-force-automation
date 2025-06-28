@@ -133,8 +133,8 @@ class _PemeliharaanState extends State<Pemeliharaan> {
                                       style: TextStyle(
                                           fontWeight: FontWeight.bold),
                                     ),
-                                    Row(
-                                      children: const [
+                                    const Row(
+                                      children: [
                                         Flexible(
                                           child: Text(
                                             'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
@@ -230,8 +230,8 @@ class _PemeliharaanState extends State<Pemeliharaan> {
                                       style: TextStyle(
                                           fontWeight: FontWeight.bold),
                                     ),
-                                    Row(
-                                      children: const [
+                                    const Row(
+                                      children: [
                                         Flexible(
                                           child: Text(
                                             'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
@@ -327,8 +327,8 @@ class _PemeliharaanState extends State<Pemeliharaan> {
                                       style: TextStyle(
                                           fontWeight: FontWeight.bold),
                                     ),
-                                    Row(
-                                      children: const [
+                                    const Row(
+                                      children: [
                                         Flexible(
                                           child: Text(
                                             'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
@@ -448,7 +448,7 @@ class _PemeliharaanState extends State<Pemeliharaan> {
                     Theme(
                       data: ThemeData(
                           textTheme: const TextTheme(
-                              subtitle1: TextStyle(
+                              titleMedium: TextStyle(
                                   fontSize: 12, fontFamily: 'Poppins'))),
                       child: DropdownSearch<String>(
                         dropdownDecoratorProps: DropDownDecoratorProps(
@@ -520,7 +520,7 @@ class _PemeliharaanState extends State<Pemeliharaan> {
                     Theme(
                       data: ThemeData(
                           textTheme: const TextTheme(
-                              subtitle1: TextStyle(
+                              titleMedium: TextStyle(
                                   fontSize: 12, fontFamily: 'Poppins'))),
                       child: DropdownSearch<String>(
                         dropdownDecoratorProps: DropDownDecoratorProps(

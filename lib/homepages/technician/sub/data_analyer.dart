@@ -32,19 +32,19 @@ class _DataAnalyzerState extends State<DataAnalyzer> {
             ),
           ),
           const SizedBox(width: 20),
-          Expanded(
+          const Expanded(
             flex: 3,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Text(
+                Text(
                   'Nama Analyzer',
                   style: TextStyle(fontWeight: FontWeight.bold),
                   maxLines: 2,
                 ),
-                const Text('Rp. 0, 00'),
+                Text('Rp. 0, 00'),
                 Row(
-                  children: const [
+                  children: [
                     Padding(
                       padding: EdgeInsets.symmetric(horizontal: 0),
                       child: Text(
@@ -134,13 +134,12 @@ class _DataAnalyzerState extends State<DataAnalyzer> {
               color: Colors.white,
               child: Column(
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 20, vertical: 10),
+                  const Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: const [
+                      children: [
                         Text(
                           'Nama',
                           style: TextStyle(
@@ -217,13 +216,12 @@ class _DataAnalyzerState extends State<DataAnalyzer> {
               color: Colors.white,
               child: Column(
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 20, vertical: 10),
+                  const Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: const [
+                      children: [
                         Text(
                           'Nama',
                           style: TextStyle(
@@ -303,13 +301,13 @@ class _DataAnalyzerState extends State<DataAnalyzer> {
                     children: [
                       Container(
                         color: Colors.white,
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(
+                        child: const Padding(
+                          padding: EdgeInsets.symmetric(
                               horizontal: 20, vertical: 10),
                           child: Row(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: const [
+                            children: [
                               Text(
                                 'Nama',
                                 style: TextStyle(
@@ -386,8 +384,8 @@ void _tambahProduk(BuildContext context) {
                     onPressed: () {},
                     style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.transparent, elevation: 0),
-                    child: Row(
-                      children: const [
+                    child: const Row(
+                      children: [
                         Icon(Icons.camera),
                         SizedBox(width: 10),
                         Text('Camera'),
@@ -397,8 +395,8 @@ void _tambahProduk(BuildContext context) {
                     onPressed: () {},
                     style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.transparent, elevation: 0),
-                    child: Row(
-                      children: const [
+                    child: const Row(
+                      children: [
                         Icon(Icons.image),
                         SizedBox(width: 10),
                         Text('Gallery'),
@@ -514,9 +512,9 @@ void _tambahProduk(BuildContext context) {
                               context: context,
                               builder: ((builder) => bottomSheet()));
                         },
-                        child: Column(
+                        child: const Column(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: const [
+                          children: [
                             Icon(
                               Icons.image,
                               size: 50,

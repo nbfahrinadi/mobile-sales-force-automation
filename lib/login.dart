@@ -85,8 +85,8 @@ class _LoginPageState extends State<LoginPage> {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Row(
-                              children: const [
+                            const Row(
+                              children: [
                                 Expanded(
                                     child: Text(
                                   'Welcome',
@@ -98,8 +98,8 @@ class _LoginPageState extends State<LoginPage> {
                               ],
                             ),
                             const SizedBox(height: 10),
-                            Row(
-                              children: const [
+                            const Row(
+                              children: [
                                 Expanded(
                                     child: Text(
                                   'Selamat datang, silahkan login',

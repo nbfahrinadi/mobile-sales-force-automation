@@ -146,25 +146,25 @@ class _KunjunganTechnSalesState extends State<KunjunganSales> {
                                   ),
                                   const SizedBox(width: 10),
                                   //INFO & DETAIL---------------------------
-                                  Expanded(
+                                  const Expanded(
                                     flex: 3,
                                     child: Column(
                                       crossAxisAlignment:
                                           CrossAxisAlignment.start,
                                       children: [
-                                        const Text(
+                                        Text(
                                           'RS. Sejahtera Nusa Sentosa Indah',
                                           style: TextStyle(
                                               overflow: TextOverflow.ellipsis,
                                               fontSize: 16,
                                               fontWeight: FontWeight.bold),
                                         ),
-                                        const SizedBox(height: 10),
+                                        SizedBox(height: 10),
                                         Row(
                                           children: [
                                             Expanded(
                                               child: Row(
-                                                children: const [
+                                                children: [
                                                   Icon(
                                                     Icons
                                                         .calendar_month_rounded,
@@ -184,7 +184,7 @@ class _KunjunganTechnSalesState extends State<KunjunganSales> {
                                             ),
                                             Expanded(
                                               child: Row(
-                                                children: const [
+                                                children: [
                                                   Icon(
                                                     Icons.access_time,
                                                     size: 15,
@@ -203,9 +203,9 @@ class _KunjunganTechnSalesState extends State<KunjunganSales> {
                                             ),
                                           ],
                                         ),
-                                        const SizedBox(height: 5),
+                                        SizedBox(height: 5),
                                         Row(
-                                          children: const [
+                                          children: [
                                             Icon(
                                               Icons.location_on,
                                               size: 15,
@@ -225,9 +225,9 @@ class _KunjunganTechnSalesState extends State<KunjunganSales> {
                                           ],
                                         ),
                                         // const SizedBox(height: 5),
-                                        const Divider(thickness: 1),
+                                        Divider(thickness: 1),
                                         Row(
-                                          children: const [
+                                          children: [
                                             // Icon(
                                             //   Icons.person,
                                             //   size: 18,
@@ -246,7 +246,7 @@ class _KunjunganTechnSalesState extends State<KunjunganSales> {
                                           ],
                                         ),
                                         Row(
-                                          children: const [
+                                          children: [
                                             // SizedBox(width: 2),
                                             Expanded(
                                               child: Text(
@@ -348,25 +348,25 @@ class _KunjunganTechnSalesState extends State<KunjunganSales> {
                                   ),
                                   const SizedBox(width: 10),
                                   //INFO & DETAIL---------------------------
-                                  Expanded(
+                                  const Expanded(
                                     flex: 3,
                                     child: Column(
                                       crossAxisAlignment:
                                           CrossAxisAlignment.start,
                                       children: [
-                                        const Text(
+                                        Text(
                                           'Klink Sejahtera Nusa Sentosa Indah',
                                           style: TextStyle(
                                               overflow: TextOverflow.ellipsis,
                                               fontSize: 16,
                                               fontWeight: FontWeight.bold),
                                         ),
-                                        const SizedBox(height: 10),
+                                        SizedBox(height: 10),
                                         Row(
                                           children: [
                                             Expanded(
                                               child: Row(
-                                                children: const [
+                                                children: [
                                                   Icon(
                                                     Icons
                                                         .calendar_month_rounded,
@@ -386,7 +386,7 @@ class _KunjunganTechnSalesState extends State<KunjunganSales> {
                                             ),
                                             Expanded(
                                               child: Row(
-                                                children: const [
+                                                children: [
                                                   Icon(
                                                     Icons.access_time,
                                                     size: 15,
@@ -405,9 +405,9 @@ class _KunjunganTechnSalesState extends State<KunjunganSales> {
                                             ),
                                           ],
                                         ),
-                                        const SizedBox(height: 5),
+                                        SizedBox(height: 5),
                                         Row(
-                                          children: const [
+                                          children: [
                                             Icon(
                                               Icons.location_on,
                                               size: 15,
@@ -427,9 +427,9 @@ class _KunjunganTechnSalesState extends State<KunjunganSales> {
                                           ],
                                         ),
                                         // const SizedBox(height: 5),
-                                        const Divider(thickness: 1),
+                                        Divider(thickness: 1),
                                         Row(
-                                          children: const [
+                                          children: [
                                             // Icon(
                                             //   Icons.person,
                                             //   size: 18,
@@ -448,7 +448,7 @@ class _KunjunganTechnSalesState extends State<KunjunganSales> {
                                           ],
                                         ),
                                         Row(
-                                          children: const [
+                                          children: [
                                             // SizedBox(width: 2),
                                             Expanded(
                                               child: Text(
@@ -557,25 +557,25 @@ class _KunjunganTechnSalesState extends State<KunjunganSales> {
                                   ),
                                   const SizedBox(width: 10),
                                   //INFO & DETAIL---------------------------
-                                  Expanded(
+                                  const Expanded(
                                     flex: 3,
                                     child: Column(
                                       crossAxisAlignment:
                                           CrossAxisAlignment.start,
                                       children: [
-                                        const Text(
+                                        Text(
                                           'Lab. Sejahtera Nusa Sentosa Indah',
                                           style: TextStyle(
                                               overflow: TextOverflow.ellipsis,
                                               fontSize: 16,
                                               fontWeight: FontWeight.bold),
                                         ),
-                                        const SizedBox(height: 10),
+                                        SizedBox(height: 10),
                                         Row(
                                           children: [
                                             Expanded(
                                               child: Row(
-                                                children: const [
+                                                children: [
                                                   Icon(
                                                     Icons
                                                         .calendar_month_rounded,
@@ -595,7 +595,7 @@ class _KunjunganTechnSalesState extends State<KunjunganSales> {
                                             ),
                                             Expanded(
                                               child: Row(
-                                                children: const [
+                                                children: [
                                                   Icon(
                                                     Icons.access_time,
                                                     size: 15,
@@ -614,9 +614,9 @@ class _KunjunganTechnSalesState extends State<KunjunganSales> {
                                             ),
                                           ],
                                         ),
-                                        const SizedBox(height: 5),
+                                        SizedBox(height: 5),
                                         Row(
-                                          children: const [
+                                          children: [
                                             Icon(
                                               Icons.location_on,
                                               size: 15,
@@ -636,9 +636,9 @@ class _KunjunganTechnSalesState extends State<KunjunganSales> {
                                           ],
                                         ),
                                         // const SizedBox(height: 5),
-                                        const Divider(thickness: 1),
+                                        Divider(thickness: 1),
                                         Row(
-                                          children: const [
+                                          children: [
                                             // Icon(
                                             //   Icons.person,
                                             //   size: 18,
@@ -657,7 +657,7 @@ class _KunjunganTechnSalesState extends State<KunjunganSales> {
                                           ],
                                         ),
                                         Row(
-                                          children: const [
+                                          children: [
                                             // SizedBox(width: 2),
                                             Expanded(
                                               child: Text(
@@ -763,7 +763,7 @@ class _KunjunganTechnSalesState extends State<KunjunganSales> {
                     Theme(
                       data: ThemeData(
                           textTheme: const TextTheme(
-                              subtitle1: TextStyle(
+                              titleMedium: TextStyle(
                                   fontSize: 12, fontFamily: 'Poppins'))),
                       child: DropdownSearch<String>(
                         dropdownDecoratorProps: DropDownDecoratorProps(

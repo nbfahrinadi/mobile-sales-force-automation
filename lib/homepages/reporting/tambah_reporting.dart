@@ -138,7 +138,7 @@ class _TambahReportingState extends State<TambahReporting> {
                         child: Theme(
                           data: ThemeData(
                               textTheme: const TextTheme(
-                                  subtitle1: TextStyle(
+                                  titleMedium: TextStyle(
                                       fontSize: 12, fontFamily: 'Poppins'))),
                           child: DropdownSearch<String>(
                             dropdownDecoratorProps:
@@ -440,9 +440,9 @@ class _TambahReportingState extends State<TambahReporting> {
                         onPressed: () {
                           tambahKegiatan(context);
                         },
-                        child: Column(
+                        child: const Column(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: const [
+                          children: [
                             Icon(
                               Icons.image,
                               size: 50,
@@ -578,8 +578,8 @@ class _TambahReportingState extends State<TambahReporting> {
                                     style: ElevatedButton.styleFrom(
                                         backgroundColor: Colors.transparent,
                                         elevation: 0),
-                                    child: Row(
-                                      children: const [
+                                    child: const Row(
+                                      children: [
                                         Icon(Icons.camera),
                                         SizedBox(width: 10),
                                         Text('Camera'),
@@ -590,8 +590,8 @@ class _TambahReportingState extends State<TambahReporting> {
                                     style: ElevatedButton.styleFrom(
                                         backgroundColor: Colors.transparent,
                                         elevation: 0),
-                                    child: Row(
-                                      children: const [
+                                    child: const Row(
+                                      children: [
                                         Icon(Icons.image),
                                         SizedBox(width: 10),
                                         Text('Gallery'),

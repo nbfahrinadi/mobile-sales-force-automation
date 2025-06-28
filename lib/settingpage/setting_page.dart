@@ -94,10 +94,10 @@ class _SettingPageState extends State<SettingPage> {
                             //   bottomLeft: Radius.circular(20),
                             //   bottomRight: Radius.circular(20),
                             ),
-                        child: Column(
+                        child: const Column(
                           children: [
                             Padding(
-                              padding: const EdgeInsets.all(10.0),
+                              padding: EdgeInsets.all(10.0),
                               child: Column(
                                 children: [
                                   // const Icon(
@@ -109,7 +109,7 @@ class _SettingPageState extends State<SettingPage> {
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     crossAxisAlignment:
                                         CrossAxisAlignment.center,
-                                    children: const [
+                                    children: [
                                       Text(
                                         'Nama User',
                                         style: TextStyle(
@@ -167,8 +167,8 @@ class _SettingPageState extends State<SettingPage> {
                             children: [
                               Expanded(
                                 child: MaterialButton(
-                                  child: Row(
-                                    children: const [
+                                  child: const Row(
+                                    children: [
                                       Padding(
                                         padding: EdgeInsets.all(20.0),
                                         child: Icon(Icons.person),
@@ -188,8 +188,8 @@ class _SettingPageState extends State<SettingPage> {
                             children: [
                               Expanded(
                                 child: MaterialButton(
-                                  child: Row(
-                                    children: const [
+                                  child: const Row(
+                                    children: [
                                       Padding(
                                         padding: EdgeInsets.all(20.0),
                                         child: Icon(
@@ -210,8 +210,8 @@ class _SettingPageState extends State<SettingPage> {
                             children: [
                               Expanded(
                                 child: MaterialButton(
-                                  child: Row(
-                                    children: const [
+                                  child: const Row(
+                                    children: [
                                       Padding(
                                         padding: EdgeInsets.all(20.0),
                                         child: Icon(Icons.language),

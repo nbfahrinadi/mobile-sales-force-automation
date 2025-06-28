@@ -93,13 +93,13 @@ class _PesanPageState extends State<PesanPage> {
                       ),
                       const SizedBox(height: 5),
                       //PESAN & JMLH NOTIF-------------------------------------
-                      Row(
+                      const Row(
                         // mainAxisAlignment: MainAxisAlignment.end,
                         children: [
                           Expanded(
                             flex: 3,
                             child: Column(
-                              children: const [
+                              children: [
                                 Text(
                                   'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
                                   maxLines: 2,
@@ -110,13 +110,13 @@ class _PesanPageState extends State<PesanPage> {
                               ],
                             ),
                           ),
-                          const SizedBox(width: 10),
+                          SizedBox(width: 10),
                           Expanded(
                             flex: 1,
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               crossAxisAlignment: CrossAxisAlignment.center,
-                              children: const [
+                              children: [
                                 Icon(
                                   Icons.looks_one_rounded,
                                   // size: 15,
@@ -195,12 +195,12 @@ class _PesanPageState extends State<PesanPage> {
             child: DrawerList()),
         body: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: const [
+                children: [
                   Text(
                     'Nama',
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
@@ -294,8 +294,8 @@ void _tambahProduk(BuildContext context) {
                     onPressed: () {},
                     style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.transparent, elevation: 0),
-                    child: Row(
-                      children: const [
+                    child: const Row(
+                      children: [
                         Icon(Icons.camera),
                         SizedBox(width: 10),
                         Text('Camera'),
@@ -305,8 +305,8 @@ void _tambahProduk(BuildContext context) {
                     onPressed: () {},
                     style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.transparent, elevation: 0),
-                    child: Row(
-                      children: const [
+                    child: const Row(
+                      children: [
                         Icon(Icons.image),
                         SizedBox(width: 10),
                         Text('Gallery'),
@@ -422,9 +422,9 @@ void _tambahProduk(BuildContext context) {
                               context: context,
                               builder: ((builder) => bottomSheet()));
                         },
-                        child: Column(
+                        child: const Column(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: const [
+                          children: [
                             Icon(
                               Icons.image,
                               size: 50,

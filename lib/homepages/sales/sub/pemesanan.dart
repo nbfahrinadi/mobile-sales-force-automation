@@ -199,7 +199,7 @@ class _PemesananState extends State<Pemesanan> {
                 child: Theme(
                   data: ThemeData(
                       textTheme: const TextTheme(
-                          subtitle1:
+                          titleMedium:
                               TextStyle(fontSize: 12, fontFamily: 'Poppins'))),
                   child: DropdownSearch<String>(
                     dropdownDecoratorProps: const DropDownDecoratorProps(
@@ -395,12 +395,12 @@ class _PemesananState extends State<Pemesanan> {
                             color: Colors.white,
                             borderRadius:
                                 BorderRadius.all(Radius.circular(10))),
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(
-                              vertical: 5, horizontal: 20),
+                        child: const Padding(
+                          padding:
+                              EdgeInsets.symmetric(vertical: 5, horizontal: 20),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
-                            children: const [
+                            children: [
                               Text(
                                 'Total Harga',
                                 style: TextStyle(fontSize: 12),

@@ -8,11 +8,11 @@ class ProductList extends StatefulWidget {
 }
 
 class _ProductListState extends State<ProductList> {
-  final _persediaan = ListTile(
-    title: const Text('Product'),
+  static const _persediaan = ListTile(
+    title: Text('Product'),
     subtitle: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      children: const [
+      children: [
         Text('desckripsi'),
         // Text('Rp. 0, 00'),
       ],
@@ -20,7 +20,7 @@ class _ProductListState extends State<ProductList> {
     // isThreeLine: true,
     trailing: Column(
       mainAxisAlignment: MainAxisAlignment.center,
-      children: const [
+      children: [
         Text(
           '0',
           style: TextStyle(fontWeight: FontWeight.bold),
@@ -28,7 +28,7 @@ class _ProductListState extends State<ProductList> {
         Text('Item'),
       ],
     ),
-    leading: const Icon(
+    leading: Icon(
       Icons.table_bar,
       size: 50,
     ),
