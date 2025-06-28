@@ -30,7 +30,7 @@ class _ScreenControllerState extends State<ScreenController> {
     return Scaffold(
         body: screens[_currentIndex],
         bottomNavigationBar: BottomAppBar(
-          color: Colors.transparent,
+          // color: Colors.red[50],
           child: _buildTitle(),
         ));
   }

@@ -2722,11 +2722,11 @@ void _tambahProduk(BuildContext context) {
                   ),
                   const SizedBox(height: 10),
                   DottedBorder(
-                    borderType: BorderType.RRect,
-                    color: Colors.black, //color of dotted/dash line
-                    strokeWidth: 1, //thickness of dash/dots
-                    dashPattern: const [10, 6],
-                    radius: const Radius.circular(10),
+                    // borderType: BorderType.RRect,
+                    // color: Colors.black, //color of dotted/dash line
+                    // strokeWidth: 1, //thickness of dash/dots
+                    // dashPattern: const [10, 6],
+                    // radius: const Radius.circular(10),
                     //dash patterns, 10 is dash width, 6 is space width
                     child: Container(
                       height: 180, //height of inner container

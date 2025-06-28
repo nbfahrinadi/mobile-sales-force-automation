@@ -36,23 +36,23 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   table_calendar: ^3.0.8
   cupertino_icons: ^1.0.2
-  dropdown_search: ^5.0.3
-  animated_list_plus: ^0.4.4
+  dropdown_search: ^6.0.2
+  animated_list_plus: ^0.5.2
   implicitly_animated_reorderable_list: ^0.4.2
-  flutter_slidable: ^2.0.0
+  flutter_slidable: ^4.0.0
   left_scroll_actions: ^2.1.2
   automatic_animated_list: ^1.1.0
-  http: ^0.13.5
-  syncfusion_flutter_charts: ^20.3.57
+  http: ^1.4.0
+  syncfusion_flutter_charts: ^30.1.37
   material_floating_search_bar: ^0.3.7
   anim_search_bar: ^2.0.2
   custom_navigation_bar: ^0.8.2
   # flutter_icons: ^1.1.0
-  textfield_search: ^0.10.0
+  textfield_search: ^0.11.1
   # image_form_field: ^0.0.2
-  image_picker: ^0.8.6
-  dotted_border: ^2.0.0+3
-  intl: ^0.17.0
+  image_picker: ^1.1.2
+  dotted_border: ^3.0.1
+  intl: ^0.20.2
 
 dev_dependencies:
   flutter_test:
@@ -63,7 +63,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^2.0.0
+  flutter_lints: ^6.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

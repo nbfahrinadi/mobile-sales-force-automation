@@ -563,8 +563,8 @@ class _ReportingPageState extends State<ReportingPage> {
                       height: 20.0,
                     ),
                     DropdownSearch<String>(
-                      dropdownDecoratorProps: const DropDownDecoratorProps(
-                        dropdownSearchDecoration: InputDecoration(
+                      decoratorProps: const DropDownDecoratorProps(
+                        decoration: InputDecoration(
                           contentPadding: EdgeInsets.symmetric(
                               vertical: 5.0, horizontal: 10.0),
                           border: OutlineInputBorder(
@@ -584,14 +584,14 @@ class _ReportingPageState extends State<ReportingPage> {
                           // fillColor: Theme.of(context).inputDecorationTheme.fillColor,
                         ),
                       ),
-                      items: const [
-                        'Rumah Sakit',
-                        'Klinik',
-                        'Lab',
-                        'Dokter Prakterk',
-                        'Bidan',
-                        'Apotek'
-                      ],
+                      // items: const [
+                      //   'Rumah Sakit',
+                      //   'Klinik',
+                      //   'Lab',
+                      //   'Dokter Prakterk',
+                      //   'Bidan',
+                      //   'Apotek'
+                      // ],
                       // items: List.generate(50, (i) => i),
                       popupProps: const PopupProps.modalBottomSheet(
                           // showSearchBox: true,
@@ -699,8 +699,8 @@ class _ReportingPageState extends State<ReportingPage> {
                     ),
                     const SizedBox(height: 10),
                     DropdownSearch<String>(
-                      dropdownDecoratorProps: const DropDownDecoratorProps(
-                        dropdownSearchDecoration: InputDecoration(
+                      decoratorProps: const DropDownDecoratorProps(
+                        decoration: InputDecoration(
                           contentPadding: EdgeInsets.symmetric(
                               vertical: 5.0, horizontal: 10.0),
                           border: OutlineInputBorder(
@@ -720,13 +720,13 @@ class _ReportingPageState extends State<ReportingPage> {
                           // fillColor: Theme.of(context).inputDecorationTheme.fillColor,
                         ),
                       ),
-                      items: const [
-                        'Analyzer 1',
-                        'Analyzer 2',
-                        'Analyzer 3',
-                        'Analyzer 4',
-                        'Analyzer 5',
-                      ],
+                      // items: const [
+                      //   'Analyzer 1',
+                      //   'Analyzer 2',
+                      //   'Analyzer 3',
+                      //   'Analyzer 4',
+                      //   'Analyzer 5',
+                      // ],
                       // items: List.generate(50, (i) => i),
                       popupProps: const PopupProps.modalBottomSheet(
                           showSearchBox: true, fit: FlexFit.loose
@@ -735,8 +735,8 @@ class _ReportingPageState extends State<ReportingPage> {
                     ),
                     const SizedBox(height: 10),
                     DropdownSearch<String>(
-                      dropdownDecoratorProps: const DropDownDecoratorProps(
-                        dropdownSearchDecoration: InputDecoration(
+                      decoratorProps: const DropDownDecoratorProps(
+                        decoration: InputDecoration(
                           contentPadding: EdgeInsets.symmetric(
                               vertical: 5.0, horizontal: 10.0),
                           border: OutlineInputBorder(
@@ -756,12 +756,12 @@ class _ReportingPageState extends State<ReportingPage> {
                           // fillColor: Theme.of(context).inputDecorationTheme.fillColor,
                         ),
                       ),
-                      items: const [
-                        'Sparepart 1',
-                        'Sparepart 2',
-                        'Sparepart 3',
-                        'Sparepart 4',
-                      ],
+                      // items: const [
+                      //   'Sparepart 1',
+                      //   'Sparepart 2',
+                      //   'Sparepart 3',
+                      //   'Sparepart 4',
+                      // ],
                       // items: List.generate(50, (i) => i),
                       popupProps: const PopupProps.modalBottomSheet(
                           showSearchBox: true, fit: FlexFit.loose

@@ -413,8 +413,8 @@ class _DetailReportingState extends State<DetailReporting> {
                       height: 20.0,
                     ),
                     DropdownSearch<String>(
-                      dropdownDecoratorProps: const DropDownDecoratorProps(
-                        dropdownSearchDecoration: InputDecoration(
+                      decoratorProps: const DropDownDecoratorProps(
+                        decoration: InputDecoration(
                           contentPadding: EdgeInsets.symmetric(
                               vertical: 5.0, horizontal: 10.0),
                           border: OutlineInputBorder(
@@ -428,20 +428,22 @@ class _DetailReportingState extends State<DetailReporting> {
                           filled: true,
                           fillColor: Colors.white,
 
-                          hintText: 'List Pelanggan',
+                          hintText: 'Jenis Pelanggan',
                           // labelText: 'Search Pelanngan',
                           // filled: true,
                           // fillColor: Theme.of(context).inputDecorationTheme.fillColor,
                         ),
                       ),
-                      items: const [
-                        'RS. Satu',
-                        'RS. Dua',
-                        'RS. Tiga',
-                        'RS. Empat',
-                        'RS. Lima',
-                        'RS. Enam'
-                      ],
+                      // items: items,
+                      // itemAsString: const [
+                      //   'RS. Satu',
+                      //   'RS. Dua',
+                      //   'RS. Tiga',
+                      //   'RS. Empat',
+                      //   'RS. Lima',
+                      //   'RS. Enam'
+                      // ],
+
                       // items: List.generate(50, (i) => i),
                       popupProps: const PopupProps.modalBottomSheet(
                           showSearchBox: true, fit: FlexFit.loose
@@ -477,8 +479,8 @@ class _DetailReportingState extends State<DetailReporting> {
                     ),
                     const SizedBox(height: 10),
                     DropdownSearch<String>(
-                      dropdownDecoratorProps: const DropDownDecoratorProps(
-                        dropdownSearchDecoration: InputDecoration(
+                      decoratorProps: const DropDownDecoratorProps(
+                        decoration: InputDecoration(
                           contentPadding: EdgeInsets.symmetric(
                               vertical: 5.0, horizontal: 10.0),
                           border: OutlineInputBorder(
@@ -498,13 +500,13 @@ class _DetailReportingState extends State<DetailReporting> {
                           // fillColor: Theme.of(context).inputDecorationTheme.fillColor,
                         ),
                       ),
-                      items: const [
-                        'Analyzer 1',
-                        'Analyzer 2',
-                        'Analyzer 3',
-                        'Analyzer 4',
-                        'Analyzer 5',
-                      ],
+                      // items: const [
+                      //   'Analyzer 1',
+                      //   'Analyzer 2',
+                      //   'Analyzer 3',
+                      //   'Analyzer 4',
+                      //   'Analyzer 5',
+                      // ],
                       // items: List.generate(50, (i) => i),
                       popupProps: const PopupProps.modalBottomSheet(
                           showSearchBox: true, fit: FlexFit.loose
@@ -513,8 +515,8 @@ class _DetailReportingState extends State<DetailReporting> {
                     ),
                     const SizedBox(height: 10),
                     DropdownSearch<String>(
-                      dropdownDecoratorProps: const DropDownDecoratorProps(
-                        dropdownSearchDecoration: InputDecoration(
+                      decoratorProps: const DropDownDecoratorProps(
+                        decoration: InputDecoration(
                           contentPadding: EdgeInsets.symmetric(
                               vertical: 5.0, horizontal: 10.0),
                           border: OutlineInputBorder(
@@ -534,12 +536,12 @@ class _DetailReportingState extends State<DetailReporting> {
                           // fillColor: Theme.of(context).inputDecorationTheme.fillColor,
                         ),
                       ),
-                      items: const [
-                        'Sparepart 1',
-                        'Sparepart 2',
-                        'Sparepart 3',
-                        'Sparepart 4',
-                      ],
+                      // items: const [
+                      //   'Sparepart 1',
+                      //   'Sparepart 2',
+                      //   'Sparepart 3',
+                      //   'Sparepart 4',
+                      // ],
                       // items: List.generate(50, (i) => i),
                       popupProps: const PopupProps.modalBottomSheet(
                           showSearchBox: true, fit: FlexFit.loose

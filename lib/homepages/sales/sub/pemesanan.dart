@@ -202,8 +202,8 @@ class _PemesananState extends State<Pemesanan> {
                           titleMedium:
                               TextStyle(fontSize: 12, fontFamily: 'Poppins'))),
                   child: DropdownSearch<String>(
-                    dropdownDecoratorProps: const DropDownDecoratorProps(
-                      dropdownSearchDecoration: InputDecoration(
+                    decoratorProps: const DropDownDecoratorProps(
+                      decoration: InputDecoration(
                         contentPadding: EdgeInsets.symmetric(
                             vertical: 5.0, horizontal: 20.0),
                         border: OutlineInputBorder(
@@ -223,14 +223,14 @@ class _PemesananState extends State<Pemesanan> {
                         // fillColor: Theme.of(context).inputDecorationTheme.fillColor,
                       ),
                     ),
-                    items: const [
-                      'RS. Satu',
-                      'RS. Dua',
-                      'RS. Tiga',
-                      'RS. Empat',
-                      'RS. Lima',
-                      'RS. Enam'
-                    ],
+                    // items: const [
+                    //   'RS. Satu',
+                    //   'RS. Dua',
+                    //   'RS. Tiga',
+                    //   'RS. Empat',
+                    //   'RS. Lima',
+                    //   'RS. Enam'
+                    // ],
                     // items: List.generate(50, (i) => i),
                     popupProps: const PopupProps.modalBottomSheet(
                         showSearchBox: true, fit: FlexFit.loose

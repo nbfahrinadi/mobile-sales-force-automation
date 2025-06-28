@@ -451,8 +451,8 @@ class _PemeliharaanState extends State<Pemeliharaan> {
                               titleMedium: TextStyle(
                                   fontSize: 12, fontFamily: 'Poppins'))),
                       child: DropdownSearch<String>(
-                        dropdownDecoratorProps: DropDownDecoratorProps(
-                          dropdownSearchDecoration: InputDecoration(
+                        decoratorProps: DropDownDecoratorProps(
+                          decoration: InputDecoration(
                             contentPadding: const EdgeInsets.symmetric(
                                 vertical: 5.0, horizontal: 20.0),
                             border: const OutlineInputBorder(
@@ -473,14 +473,14 @@ class _PemeliharaanState extends State<Pemeliharaan> {
                             // fillColor: Theme.of(context).inputDecorationTheme.fillColor,
                           ),
                         ),
-                        items: const [
-                          'RS. Satu',
-                          'RS. Dua',
-                          'RS. Tiga',
-                          'RS. Empat',
-                          'RS. Lima',
-                          'RS. Enam'
-                        ],
+                        // items: const [
+                        //   'RS. Satu',
+                        //   'RS. Dua',
+                        //   'RS. Tiga',
+                        //   'RS. Empat',
+                        //   'RS. Lima',
+                        //   'RS. Enam'
+                        // ],
                         // items: List.generate(50, (i) => i),
                         popupProps: const PopupProps.modalBottomSheet(
                             showSearchBox: true, fit: FlexFit.loose
@@ -523,8 +523,8 @@ class _PemeliharaanState extends State<Pemeliharaan> {
                               titleMedium: TextStyle(
                                   fontSize: 12, fontFamily: 'Poppins'))),
                       child: DropdownSearch<String>(
-                        dropdownDecoratorProps: DropDownDecoratorProps(
-                          dropdownSearchDecoration: InputDecoration(
+                        decoratorProps: DropDownDecoratorProps(
+                          decoration: InputDecoration(
                             contentPadding: const EdgeInsets.symmetric(
                                 vertical: 5.0, horizontal: 20.0),
                             border: const OutlineInputBorder(
@@ -545,13 +545,13 @@ class _PemeliharaanState extends State<Pemeliharaan> {
                             // fillColor: Theme.of(context).inputDecorationTheme.fillColor,
                           ),
                         ),
-                        items: const [
-                          'Analyzer 1',
-                          'Analyzer 2',
-                          'Analyzer 3',
-                          'Analyzer 4',
-                          'Analyzer 1',
-                        ],
+                        // items: const [
+                        //   'Analyzer 1',
+                        //   'Analyzer 2',
+                        //   'Analyzer 3',
+                        //   'Analyzer 4',
+                        //   'Analyzer 1',
+                        // ],
                         // items: List.generate(50, (i) => i),
                         popupProps: const PopupProps.modalBottomSheet(
                             showSearchBox: true, fit: FlexFit.loose

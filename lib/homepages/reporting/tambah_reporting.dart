@@ -141,9 +141,8 @@ class _TambahReportingState extends State<TambahReporting> {
                                   titleMedium: TextStyle(
                                       fontSize: 12, fontFamily: 'Poppins'))),
                           child: DropdownSearch<String>(
-                            dropdownDecoratorProps:
-                                const DropDownDecoratorProps(
-                              dropdownSearchDecoration: InputDecoration(
+                            decoratorProps: const DropDownDecoratorProps(
+                              decoration: InputDecoration(
                                 contentPadding: EdgeInsets.symmetric(
                                     vertical: 5.0, horizontal: 20.0),
                                 border: OutlineInputBorder(
@@ -165,14 +164,14 @@ class _TambahReportingState extends State<TambahReporting> {
                               ),
                             ),
 
-                            items: const [
-                              'Rumah Sakit',
-                              'Klinik',
-                              'Lab',
-                              'Dokter Praktek',
-                              'Bidan',
-                              'Apotek'
-                            ],
+                            // items: const [
+                            //   'Rumah Sakit',
+                            //   'Klinik',
+                            //   'Lab',
+                            //   'Dokter Praktek',
+                            //   'Bidan',
+                            //   'Apotek'
+                            // ],
                             // items: List.generate(50, (i) => i),
                             popupProps: const PopupProps.modalBottomSheet(
 
@@ -421,12 +420,12 @@ class _TambahReportingState extends State<TambahReporting> {
                   ),
                   const SizedBox(height: 10),
                   DottedBorder(
-                    borderType: BorderType.RRect,
-                    color: Colors.black, //color of dotted/dash line
-                    strokeWidth: 1, //thickness of dash/dots
-                    dashPattern: const [10, 6],
-                    radius: const Radius.circular(10),
-                    //dash patterns, 10 is dash width, 6 is space width
+                    // options: const DottedBorderOptions(
+                    //   color: Colors.black54,
+                    //   strokeWidth: 1,
+                    //   dashPattern: [5, 5],
+                    //   borderType: null,
+                    // ),
                     child: Container(
                       height: 180, //height of inner container
                       width: double.infinity,

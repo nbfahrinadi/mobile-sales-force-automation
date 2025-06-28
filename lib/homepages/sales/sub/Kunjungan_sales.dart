@@ -766,8 +766,8 @@ class _KunjunganTechnSalesState extends State<KunjunganSales> {
                               titleMedium: TextStyle(
                                   fontSize: 12, fontFamily: 'Poppins'))),
                       child: DropdownSearch<String>(
-                        dropdownDecoratorProps: DropDownDecoratorProps(
-                          dropdownSearchDecoration: InputDecoration(
+                        decoratorProps: DropDownDecoratorProps(
+                          decoration: InputDecoration(
                             contentPadding: const EdgeInsets.symmetric(
                                 vertical: 5.0, horizontal: 20.0),
                             border: const OutlineInputBorder(
@@ -788,13 +788,13 @@ class _KunjunganTechnSalesState extends State<KunjunganSales> {
                             // fillColor: Theme.of(context).inputDecorationTheme.fillColor,
                           ),
                         ),
-                        items: const [
-                          'Rumah Sakit',
-                          'Klinik',
-                          'Apotek',
-                          'Bidan',
-                          'Dokter Umum',
-                        ],
+                        // items: const [
+                        //   'Rumah Sakit',
+                        //   'Klinik',
+                        //   'Apotek',
+                        //   'Bidan',
+                        //   'Dokter Umum',
+                        // ],
                         // items: List.generate(50, (i) => i),
                         popupProps: const PopupProps.modalBottomSheet(
                           showSearchBox: false, fit: FlexFit.loose,
