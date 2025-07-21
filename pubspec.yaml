@@ -1,6 +1,5 @@
-name: mobile_wg
-description: A new Flutter project.
-
+name: mobile_sales_force_automation
+description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
@@ -20,7 +19,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.18.1 <3.0.0"
+  sdk: ^3.8.1
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -34,8 +33,9 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  flutter_svg:
   table_calendar: ^3.0.8
-  cupertino_icons: ^1.0.2
   dropdown_search: ^6.0.2
   animated_list_plus: ^0.5.2
   implicitly_animated_reorderable_list: ^0.4.2
@@ -77,36 +77,37 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/logo.png
-    - assets/images/logoonly.png
-    - assets/images/sales.png
-    - assets/images/technician.png
-    - assets/images/report.png
-    - assets/images/shipping.png
-    - assets/images/bghome.png
-    - assets/images/bottomimage.png
-    - assets/images/pemesanan.png
-    - assets/images/produk.png
-    - assets/images/kunjungan.png
-    - assets/images/hospital.png
-    - assets/images/clinic.png
-    - assets/images/laboratory.png
-    - assets/images/dataanalyzer.png
-    - assets/images/pemeliharaan.png
-    - assets/images/perbaikan.png
+    - assets/fonts/
+    - assets/images/
+    - assets/vectors/
+    - assets/vectors/sales.png
+    - assets/vectors/technician.png
+    - assets/vectors/report.png
+    - assets/vectors/shipping.png
+    - assets/vectors/bghome.png
+    - assets/vectors/bottomimage.png
+    - assets/vectors/pemesanan.png
+    - assets/vectors/produk.png
+    - assets/vectors/kunjungan.png
+    - assets/vectors/hospital.png
+    - assets/vectors/clinic.png
+    - assets/vectors/laboratory.png
+    - assets/vectors/dataanalyzer.png
+    - assets/vectors/pemeliharaan.png
+    - assets/vectors/perbaikan.png
     - assets/images/wienerlabcm200.png
-    - assets/images/bgsales.png
-    - assets/images/bgtechnician.png
+    - assets/vectors/bgsales.png
+    - assets/vectors/bgtechnician.png
     - assets/images/kegiatan.png
-    - assets/images/send.png
-    - assets/images/bill.png
+    - assets/vectors/send.png
+    - assets/vectors/bill.png
     - assets/images/zybio.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/assets-and-images/#resolution-aware
+  # https://flutter.dev/to/resolution-aware-vectors
 
   # For details regarding adding assets from package dependencies, see
-  # https://flutter.dev/assets-and-images/#from-packages
+  # https://flutter.dev/to/asset-from-package
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
@@ -114,52 +115,14 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: AnekDevanagari
-      fonts:
-        - asset: assets/fonts/AnekDevanagari-Regular.ttf
-          # weight: 600
-    - family: MontserratAlternates
-      fonts:
-        - asset: assets/fonts/MontserratAlternates-Regular.ttf
-          # weight: 600
-    - family: Urbanist
-      fonts:
-        - asset: assets/fonts/Urbanist-Regular.ttf
-          # weight: 600
-    - family: Quicksand
-      fonts:
-        - asset: assets/fonts/Quicksand-Regular.ttf
-          # weight: 600
-    - family: Questrial
-      fonts:
-        - asset: assets/fonts/Questrial-Regular.ttf
-          # weight: 600
-    - family: JosefinSans
-      fonts:
-        - asset: assets/fonts/JosefinSans-Regular.ttf
-          # weight: 600
     - family: Poppins
       fonts:
         - asset: assets/fonts/Poppins-Regular.ttf
-          # weight: 600
-    - family: Lato
-      fonts:
-        - asset: assets/fonts/Lato-Regular.ttf
-          # weight: 600
-    - family: Raleway
-      fonts:
-        - asset: assets/fonts/Raleway-Regular.ttf
-          # weight: 800
-    # - family: Schyler
-    #   fonts:
-    #     - asset: fonts/Schyler-Regular.ttf
-    #     - asset: fonts/Schyler-Italic.ttf
-    #       style: italic
-    # - family: Trajan Pro
-    #   fonts:
-    #     - asset: fonts/TrajanPro.ttf
-    #     - asset: fonts/TrajanPro_Bold.ttf
-    #       weight: 700
+          weight: 600
+        - asset: assets/fonts/Poppins-semiBold.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 400
   #
   # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
+  # see https://flutter.dev/to/font-from-package

@@ -1,8 +1,6 @@
-# mobile-sales-force-automation
+# mobile_sales_force_automation
 
-aplikasi mobile sales force mvp (draft)
-
-# mobile_wg
+bloc state management
 
 A new Flutter project.
 

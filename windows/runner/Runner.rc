@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "mobile_wg" "\0"
+            VALUE "FileDescription", "mobile_sales_force_automation" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "mobile_wg" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "mobile_wg.exe" "\0"
-            VALUE "ProductName", "mobile_wg" "\0"
+            VALUE "InternalName", "mobile_sales_force_automation" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "mobile_sales_force_automation.exe" "\0"
+            VALUE "ProductName", "mobile_sales_force_automation" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

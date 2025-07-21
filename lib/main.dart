@@ -1,33 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_wg/datas/pallete.dart';
-import 'package:mobile_wg/screen_controller.dart';
-import 'package:flutter/services.dart';
+import 'package:mobile_sales_force_automation/core/configs/theme/app_theme.dart';
+import 'package:mobile_sales_force_automation/presentation/splash/pages/splash.dart';
 
 void main() {
-  WidgetsFlutterBinding.ensureInitialized();
-  SystemChrome.setPreferredOrientations(
-      [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
   runApp(const MyApp());
 }
 
-class MyApp extends StatefulWidget {
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  @override
-  State<MyApp> createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: '',
-      theme: ThemeData(
-        primarySwatch: Palette.kToLight,
-        fontFamily: 'Poppins',
-      ),
-      home: const ScreenController(),
+      debugShowCheckedModeBanner: false, // Hilangkan banner DEBUG
+      title: 'Mobile Sales Force Automation',
+      theme: AppTheme.lightTheme,
+      home: const SplashPage(),
     );
   }
 }
